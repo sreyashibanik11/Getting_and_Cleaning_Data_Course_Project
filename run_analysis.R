@@ -144,4 +144,4 @@ tidyDataSet=SummaryData
 
 # Exporting the tidyDataSet 
 
-write.table(tidyDataSet, "tidyDataSet.txt",row.names=TRUE,sep="\t")
+write.table(tidyDataSet, "tidyDataSet.txt",row.names=FALSE,sep="\t")
